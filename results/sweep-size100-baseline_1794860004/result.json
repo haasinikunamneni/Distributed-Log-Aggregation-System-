@@ -1,0 +1,69 @@
+{
+ "run_id": "sweep-size100-baseline_1794860004",
+ "mode": "baseline",
+ "bottleneck_bps": 1000000,
+ "clients": 3,
+ "count_per_client": 1000,
+ "rate_per_client": 200,
+ "payload_size": 100,
+ "duration_s": 8.166331768035889,
+ "ping_loss_pct": 0.0,
+ "metrics": {
+  "critical": {
+   "sent": 307,
+   "received": 180,
+   "missing": 127,
+   "delivery_ratio": 0.5863192182410424,
+   "loss_ratio": 0.4136807817589576,
+   "delay_ms_mean": 266.08343919118244,
+   "delay_ms_median": 290.2897596359253,
+   "delay_ms_p95": 291.2502646446228,
+   "throughput_msgs_per_s": 22.041720213296255
+  },
+  "ordinary": {
+   "sent": 2693,
+   "received": 1643,
+   "missing": 1050,
+   "delivery_ratio": 0.6101002599331601,
+   "loss_ratio": 0.3898997400668399,
+   "delay_ms_mean": 270.5579531025901,
+   "delay_ms_median": 290.32039642333984,
+   "delay_ms_p95": 291.3079023361206,
+   "throughput_msgs_per_s": 201.19192394692084
+  },
+  "all": {
+   "sent": 3000,
+   "received": 1823,
+   "missing": 1177,
+   "delivery_ratio": 0.6076666666666667,
+   "loss_ratio": 0.3923333333333333,
+   "delay_ms_mean": 270.1161470115021,
+   "delay_ms_median": 290.316104888916,
+   "delay_ms_p95": 291.3006067276001,
+   "throughput_msgs_per_s": 223.2336441602171
+  }
+ },
+ "collector": {
+  "counters": {
+   "UDP.stored": 1823
+  },
+  "udp_loss": {
+   "h3": {
+    "received": 682,
+    "expected": 1000,
+    "missing": 318
+   },
+   "h1": {
+    "received": 492,
+    "expected": 1000,
+    "missing": 508
+   },
+   "h2": {
+    "received": 649,
+    "expected": 1000,
+    "missing": 351
+   }
+  },
+  "rows": 1823
+ }
+}

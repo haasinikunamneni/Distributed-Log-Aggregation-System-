@@ -1,0 +1,1 @@
+{"source": "h2", "experiment": "sweep-critical5-priority_1794860137", "total": 1000, "sent": {"critical": 53, "CRITICAL": 53, "ordinary": 947, "ERROR": 58, "DEBUG": 305, "WARNING": 146, "INFO": 438}, "duration_s": 4.995197296142578}

@@ -1,0 +1,23 @@
+{
+ "counters": {
+  "UDP.stored": 1447
+ },
+ "udp_loss": {
+  "h1": {
+   "received": 727,
+   "expected": 1000,
+   "missing": 273
+  },
+  "h2": {
+   "received": 383,
+   "expected": 1000,
+   "missing": 617
+  },
+  "h3": {
+   "received": 337,
+   "expected": 1000,
+   "missing": 663
+  }
+ },
+ "rows": 1447
+}

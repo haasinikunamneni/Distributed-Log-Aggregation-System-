@@ -1,0 +1,8 @@
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=12.223s, table=0, n_packets=447, n_bytes=203813, priority=20,udp,dl_dst=00:00:00:00:00:04,tp_dst=9101 actions=set_field:46->ip_dscp,output:4
+ cookie=0x0, duration=12.223s, table=0, n_packets=4053, n_bytes=1835515, priority=20,udp,dl_dst=00:00:00:00:00:04,tp_dst=9001 actions=output:4
+ cookie=0x0, duration=12.257s, table=0, n_packets=13, n_bytes=882, priority=10,dl_dst=00:00:00:00:00:01 actions=output:1
+ cookie=0x0, duration=12.256s, table=0, n_packets=10, n_bytes=700, priority=10,dl_dst=00:00:00:00:00:02 actions=output:2
+ cookie=0x0, duration=12.228s, table=0, n_packets=6, n_bytes=364, priority=10,dl_dst=00:00:00:00:00:03 actions=output:3
+ cookie=0x0, duration=12.222s, table=0, n_packets=9, n_bytes=546, priority=10,dl_dst=00:00:00:00:00:04 actions=output:4
+ cookie=0x0, duration=15.316s, table=0, n_packets=16, n_bytes=1120, priority=0 actions=CONTROLLER:65535

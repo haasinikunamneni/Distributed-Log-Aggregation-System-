@@ -1,0 +1,1 @@
+{"source": "h3", "experiment": "sweep-rate100-baseline_1794860234", "total": 500, "sent": {"ordinary": 460, "DEBUG": 139, "INFO": 208, "WARNING": 80, "critical": 40, "CRITICAL": 40, "ERROR": 33}, "duration_s": 4.993494749069214}
